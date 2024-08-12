@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Name
+author: Carlin Chow
 title: "Applied Data Science Project Documentation"
 categories: ITD214
 ---
