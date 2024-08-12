@@ -1,7 +1,7 @@
-title: Data Science Project Showcase
-author:
-  name: GitHub User
-  email: your-email@domain.com
+title: ITD214 Data Science Project Showcase
+author: Carlin Chow
+  name: Carlin Chow
+  email: carlinchowyj@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
