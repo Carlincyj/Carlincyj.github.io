@@ -15,12 +15,13 @@ Here are the four objectives that we focused on:**
 3. To analyse review topics for the four different seat types for a more targeted marketing approach, improving business by 10% (Carlin (myself))
 4. To reduce negative review sentiments by 10% to improve customer satisfaction and demand (Vivienne)
 
-For my business objective (#3), I aim to make use of Topic Modelling and Sentiment Analysis to analyse common topics of interest for the four different seat types offered on flights by British airways, so that areas of improvement can be addressed / areas done well can be continued. 
+For my business objective (#3), I aim to make use of Topic Modelling and Sentiment Analysis to analyse common topics of interest for the four different seat types offered on flights by British airways, so that areas of improvement can be addressed / areas done well can be continued. Thereafter, I will present the analyses on which topics are most associated with positive or negative sentiments. 
+
 ## Work Accomplished
 Document your work done to accomplish the outcome
 
 ### Data Preparation
-First, data preparation will be done on this dataset. Prior to my own cleaning, our group has done some data preprocessing on the data. That includes the following:
+  First, data preparation will be done on this dataset. Prior to my own cleaning, our group has done some data preprocessing on the data. That includes the following:
 1. Converting fields into appropriate data types
 2. Removal of missing values
 3. Conversion to lowercase
@@ -30,6 +31,8 @@ First, data preparation will be done on this dataset. Prior to my own cleaning, 
 7. Tokenisation
 8. Lemmatization
 9. POS Tagging and removal of specific parts of speech
+
+   After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were dropped. 
 
 ### Modelling
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
