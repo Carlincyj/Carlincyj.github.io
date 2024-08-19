@@ -32,7 +32,7 @@ Document your work done to accomplish the outcome
 8. Lemmatization
 9. POS Tagging and removal of specific parts of speech
 
-   After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were dropped. 
+After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were dropped. 
 
 ### Modelling
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
