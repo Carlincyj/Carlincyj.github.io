@@ -6,7 +6,9 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
- Hi! This is my project submission for the module ITD214.
+ Hi! This is my project submission for the module ITD214. My team's topic for the project is "British Airways: Improving Customer Experience". On this topic, the business objective that I would be addressing is 
+ this - "To analyse review topics for the four different seat types for a more targeted marketing approach, improving business by 10%".
+
 
 # Build settings
 
