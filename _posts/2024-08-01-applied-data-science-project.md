@@ -35,22 +35,32 @@ Document your work done to accomplish the outcome
 After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were dropped. 
 
 ### Modelling
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+For this business objective, the model of choice was topic modelling. To enhance findings, I had also done an analysis of the bigrams and trigrams related to the topic words churned. 
+
+Topic modelling was done in Jupyter Notebook using LDA. Perplexity scores and coherence scores were calculated to determine the best number of topics to input for the modelling process. Based on the scores, topic_num = 20 was chosen. 
+
 
 ### Evaluation
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 ## Recommendation and Analysis
-Explain the analysis and recommendations
+Based on the top 5 topics (specific words) of interest, further evaluation was done through additional analysis of the bigrams and trigrams columns. Some findings from the evaluation for the 4 seat types to improve British Airways service are as follows (examples):
+Economy Class: bad customer service, exit row seat, take long time
+Premium Economy: one hour delay, last time fly
+Business Class: middle seat block
+First Class: one hour delay
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+Based on reviews, customers had following (examples of) positive remarks of some of the following topic words:
+Economy Class: leg room (enough, plenty, good)
+Premium Economy: food pretty good, seat comfortable good, cabin crew efficient
+Business Class: new seat comfortable
+First Class: lounge excellent service
+
 
 ## AI Ethics
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
 For this project, one ethical consideration that would be most straightforward would be the annonymisation of customer reviews. During processing of the dataset, the names of customers were removed to ensure privacy. This ensures that confidentiality was maintained for the study,
 
-Fariness - Topic modelling process (is it proportionate, what is the seat distribution like)
-Finally, transparency of project is made clear, as the ways of conducting the analysis were documented step by step and explained in detail. This would allow the audience to be clear of procedure and variables involved. This enables openness between myself and the stakeholders, so that recommendations made subsequently are with basis. 
+Finally, transparency of project is made clear, as the ways of conducting the analysis were documented step by step and explained in detail. This would allow the audience to be clear of procedure and variables involved. This enables openness between data manager and the stakeholders, so that recommendations made subsequently are with basis. For the topic modelling portion, topic modelling was done on four separate datasets that was split from the original dataset, thus eliminating any biases or overgeneralisation of issues or areas performed well by the airline. 
 
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the link here. 
