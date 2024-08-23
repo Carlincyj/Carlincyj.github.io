@@ -34,6 +34,9 @@ Document your work done to accomplish the outcome
 
 After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were dropped. 
 
+![image](https://github.com/user-attachments/assets/c6137af8-209d-4588-8d5e-91ff57bd712c)
+
+
 ### Modelling
 For this business objective, the model of choice was topic modelling. To enhance findings, I had also done an analysis of the bigrams and trigrams related to the topic words churned. 
 
@@ -47,16 +50,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 Based on the top 5 topics (specific words) of interest, further evaluation was done through additional analysis of the bigrams and trigrams columns. Some findings from the evaluation for the 4 seat types to improve British Airways service are as follows (examples):
 
 Economy Class: bad customer service, exit row seat, take long time
+
 Premium Economy: one hour delay, last time fly
+
 Business Class: middle seat block
+
 First Class: one hour delay
+
 
 Based on reviews, customers had following (examples of) positive remarks of some of the following topic words:
 
 Economy Class: leg room (enough, plenty, good)
+
 Premium Economy: food pretty good, seat comfortable good, cabin crew efficient
+
 Business Class: new seat comfortable
+
 First Class: lounge excellent service
+
 
 
 ## AI Ethics
