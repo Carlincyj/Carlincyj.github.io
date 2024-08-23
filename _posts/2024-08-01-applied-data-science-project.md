@@ -45,12 +45,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 ## Recommendation and Analysis
 Based on the top 5 topics (specific words) of interest, further evaluation was done through additional analysis of the bigrams and trigrams columns. Some findings from the evaluation for the 4 seat types to improve British Airways service are as follows (examples):
+
 Economy Class: bad customer service, exit row seat, take long time
 Premium Economy: one hour delay, last time fly
 Business Class: middle seat block
 First Class: one hour delay
 
 Based on reviews, customers had following (examples of) positive remarks of some of the following topic words:
+
 Economy Class: leg room (enough, plenty, good)
 Premium Economy: food pretty good, seat comfortable good, cabin crew efficient
 Business Class: new seat comfortable
