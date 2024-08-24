@@ -13,7 +13,7 @@ Specifically, my team and I have selected the following dataset from Kaggle whic
 
 Here are the four objectives that we focused on:
 1. To reduce response time by 10% by identifying common complaints through clustering for automation of replies (Yan)
-2. 
+   
 **2. To analyse review topics for the four different seat types for a more targeted marketing approach, improving business by 10% (Carlin (myself))**
 3. To identify areas of customer satisfaction for marketing purposes, to improve business by 10% (Bridget)
 4. To reduce negative review sentiments by 10% to improve customer satisfaction and demand (Vivienne)
