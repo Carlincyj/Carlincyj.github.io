@@ -32,11 +32,11 @@ Document your work done to accomplish the outcome
 8. Lemmatization
 9. POS Tagging and removal of specific parts of speech
 
-After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were dropped. 
+After which, the dataset was cleaned individually. For my Business Objective, the main columns that were essential for the analysis were the following - 'CleanText' (derived from text after cleaning earlier), 'Bigrams', 'Trigrams' and the 'Recommended' columns. Hence, the rest of irrelevant columns were filtered and dropped. 
 
 ![image](https://github.com/user-attachments/assets/3822a4e0-ece9-42ae-8e03-643d92337375)
 
-To provide specific analysis for the four seat types (Economy Class, Premium Economy, Business Class and First Class), the dataset was split into four based on seat type.
+To provide specific analysis for the four seat types (Economy Class, Premium Economy, Business Class and First Class), the dataset was split into four based on seat type. From there, subsequent steps would be done for each seat type separately.
 
 ![image](https://github.com/user-attachments/assets/5d941bf7-74e4-4822-8b6d-bad8ef042222)
 
@@ -50,6 +50,7 @@ To prepare dataset for topic modelling, TF-IDF was first done.
 ![image](https://github.com/user-attachments/assets/3e66788e-5302-44c0-8b9c-90d9f5195cb0)
 
 Topic Modelling Process
+
 Next, Topic Modelling was done through using LDA function. In this section, I display the LDA done for each of the seat types. 
 
 ![image](https://github.com/user-attachments/assets/b4894188-20bd-4904-9925-157fb4085c17)
