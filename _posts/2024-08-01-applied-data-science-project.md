@@ -7,10 +7,11 @@ categories: ITD214
 ## Project Background
 Welcome to my ITD214 Github page! In this space, I would be sharing more about my project titled "British Airways: Improving Customer Experience".
 
-Specifically, my team and I have selected the following dataset from Kaggle which contains customer reviews of British Ariways scrapped from airlinequality from the period 2015 to 2023. There are 19 columns in this dataset (refer to the dataset using this link: https://www.kaggle.com/datasets/chaudharyanshul/airline-reviews)
+Specifically, my team and I have selected the following dataset from Kaggle which contains customer reviews of British Airways scrapped from airlinequality from the period 2015 to 2023. There are 19 columns in this dataset (refer to the dataset using this link: https://www.kaggle.com/datasets/chaudharyanshul/airline-reviews)
 
 
-**Here are the four objectives that we focused on:**
+
+Here are the four objectives that we focused on:
 1. To reduce response time by 10% by identifying common complaints through clustering for automation of replies (Yan)
 **2. To analyse review topics for the four different seat types for a more targeted marketing approach, improving business by 10% (Carlin (myself))**
 3. To identify areas of customer satisfaction for marketing purposes, to improve business by 10% (Bridget)
@@ -22,7 +23,7 @@ For my business objective (#3), I aim to make use of Topic Modelling and Sentime
 Overall, the steps below have generated insights for bettering the top concerns of passengers who had travelled with British Airways. Specifically, frequent topics from the review ("CleanText") body was extracted using LDA, and picked up to sieve out top trigrams for better understanding about reviews on these aspects. 
 
 ### Data Preparation
-  First, the relevant libriaries were downloaded for use.
+  First, the relevant libraries were downloaded for use.
 
   ![1 Importing relevant lib](https://github.com/user-attachments/assets/3dd12992-07ba-4ab2-a5e2-e249296d6f27)
 
