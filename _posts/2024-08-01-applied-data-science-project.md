@@ -38,7 +38,7 @@ After which, the dataset was cleaned individually. For my Business Objective, th
 
 To provide specific analysis for the four seat types (Economy Class, Premium Economy, Business Class and First Class), the dataset was split into four based on seat type. From there, subsequent steps would be done for each seat type separately.
 
-![image](https://github.com/user-attachments/assets/5d941bf7-74e4-4822-8b6d-bad8ef042222)
+![image](https://github.com/user-attachments/assets/fbc6ac38-c8ea-4fd0-98cf-beb832ecb091)
 
 
 ### Modelling
