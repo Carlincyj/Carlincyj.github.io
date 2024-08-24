@@ -59,6 +59,7 @@ Topic Modelling Process
 Next, Topic Modelling was done through using LDA function. In this section, I display the LDA done for each of the seat types. 
 
 For Economy Class - 
+
 ![image](https://github.com/user-attachments/assets/7bbd2fc5-4661-4a91-905e-3e3dde653a2e)
 
 
