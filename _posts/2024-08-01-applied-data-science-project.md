@@ -54,9 +54,6 @@ To prepare dataset for topic modelling, TF-IDF was first done.
 
 
 
-
-
-
 Topic Modelling Process
 
 Next, Topic Modelling was done through using LDA function. In this section, I display the LDA done for each of the seat types. 
