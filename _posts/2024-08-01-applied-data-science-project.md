@@ -50,6 +50,7 @@ For this business objective, the model of choice was topic modelling. To enhance
 Topic modelling was done in Jupyter Notebook using LDA. Perplexity scores and coherence scores were calculated to determine the best number of topics to input for the modelling process. Based on the scores, topic_num = 20 was chosen. 
 
 To prepare dataset for topic modelling, TF-IDF was first done.
+
 ![image](https://github.com/user-attachments/assets/a64cb410-4154-438a-82f0-75bba90580f6)
 
 
@@ -78,6 +79,7 @@ For Premium Economy this was the output obtained
 
 
 For Business Class - 
+
 ![image](https://github.com/user-attachments/assets/077fffdd-d829-4824-be5b-2aa8595ce9ea)
 
 
@@ -85,7 +87,8 @@ For Business Class this was the output obtained
 ![image](https://github.com/user-attachments/assets/14d18817-fc06-4a9d-9b9f-38b9decf89de)
 
 
-For First Class - 
+For First Class -
+
 ![image](https://github.com/user-attachments/assets/d902a7b8-02c4-465a-8e3d-e6e44c9ed418)
 
 
@@ -93,10 +96,9 @@ For First Class this was the output obtained
 ![image](https://github.com/user-attachments/assets/8d6797ae-1100-4a71-a226-7e5923a2b1f5)
 
 ### Evaluation
-As topic words may not be sufficient to gain a deeper understanding of these aspects from customer reviews, reference was also done with the top trigrams. In this case, I had filtered trigrams based on the top topic words to identify top trigrams mentioned concerning these aspects. 
+As topic words may not be sufficient to gain a deeper understanding of these aspects from customer reviews, reference was also done with the top trigrams. In this case, I had filtered trigrams based on the top topic words to identify top trigrams mentioned concerning these aspects. In gist, rather than only being able to identify 'service' as a top aspect of mention for customers - without any context of what about 'service' that customers were concerned about, we are now able to obtain greater knowledge from some trigrams generated. For example, multiple occurances of trigrams involving the word 'service' in the economy dataset could consist of 'bad customer service' or 'slow custoemr service'. This would help us identify that the service provided by British Airways was an aspect for improvement for its economy class. 
 
-For example, 
-
+This was how frequent topic words of disucssion can help surface the frequent trigrams in the dataset to understand if they were concerns for improvement for British Airways to address, or areas of compliments for British Airways to keep up their good work in. 
 
 
 ## Recommendation and Analysis
