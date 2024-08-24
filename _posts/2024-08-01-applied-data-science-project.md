@@ -7,7 +7,7 @@ categories: ITD214
 ## Project Background
 Welcome to my ITD214 Github page! In this space, I would be sharing more about my project titled "British Airways: Improving Customer Experience".
 
-Specifically, my team and I have selected the following dataset from Kaggle which contains customer reviews of British Airways scrapped from airlinequality from the period 2015 to 2023. There are 19 columns in this dataset (refer to the dataset using this link: https://www.kaggle.com/datasets/chaudharyanshul/airline-reviews)
+Specifically, my team and I have selected the following dataset from Kaggle which contains customer reviews of British Airways scrapped from airlinequality from the period 2015 to 2023. There are 19 columns in this dataset (refer to the dataset using this link: https://www.kaggle.com/datasets/chaudharyanshul/airline-reviews
 
 
 
