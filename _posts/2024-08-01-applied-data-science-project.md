@@ -9,6 +9,7 @@ Welcome to my ITD214 Github page! In this space, I would be sharing more about m
 
 Specifically, my team and I have selected the following dataset from Kaggle which contains customer reviews of British Ariways scrapped from airlinequality from the period 2015 to 2023. There are 19 columns in this dataset (refer to the dataset using this link: https://www.kaggle.com/datasets/chaudharyanshul/airline-reviews)
 
+
 **Here are the four objectives that we focused on:**
 1. To reduce response time by 10% by identifying common complaints through clustering for automation of replies (Yan)
 **2. To analyse review topics for the four different seat types for a more targeted marketing approach, improving business by 10% (Carlin (myself))**
