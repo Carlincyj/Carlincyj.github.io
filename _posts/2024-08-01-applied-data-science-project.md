@@ -47,7 +47,8 @@ For this business objective, the model of choice was topic modelling. To enhance
 Topic modelling was done in Jupyter Notebook using LDA. Perplexity scores and coherence scores were calculated to determine the best number of topics to input for the modelling process. Based on the scores, topic_num = 20 was chosen. 
 
 To prepare dataset for topic modelling, TF-IDF was first done.
-![image](https://github.com/user-attachments/assets/3e66788e-5302-44c0-8b9c-90d9f5195cb0)
+![image](https://github.com/user-attachments/assets/f6071b03-a01c-4517-b99e-34b890153200)
+
 
 Topic Modelling Process
 
