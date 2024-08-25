@@ -62,9 +62,9 @@ To provide specific analysis for the four seat types (Economy Class, Premium Eco
 
 
 ### Modelling
-For this business objective, the model of choice was topic modelling. To enhance findings, I had also done an analysis of the bigrams and trigrams related to the topic words churned. Ultimately, for better understanding, only trigrams were focussed on to help with the analysis. 
+For this business objective, the model of choice was topic modelling.
 
-Topic modelling was done in Jupyter Notebook using LDA. Perplexity scores and coherence scores were calculated to determine the best number of topics to input for the modelling process. Based on the scores, topic_num = 20 was chosen. 
+Topic modelling was done in Jupyter Notebook using LDA. Perplexity scores and coherence scores were also calculated to determine the best number of topics to input for the modelling process. Based on the scores, topic_num = 20 was chosen. 
 
 To prepare dataset for topic modelling, TF-IDF by seat type was first done.
 
