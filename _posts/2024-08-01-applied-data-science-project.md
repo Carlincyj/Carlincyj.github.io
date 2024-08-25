@@ -130,13 +130,13 @@ First Class: one hour delay
 
 **Based on reviews, customers had following (examples of) positive remarks of some of the following topic words:**
 
-Economy Class: leg room enough/plenty/good
+Economy Class: leg room enough/plenty/good, cabin crew friendly
 
-Premium Economy: food pretty good, seat comfortable good, cabin crew efficient
+Premium Economy: food pretty good, seat comfortable good, cabin crew excellent/efficient
 
 Business Class: cabin crew friendly/good cabin crew, new seat comfortable, service food good/food drink good
 
-First Class: lounge excellent service/good food drink
+First Class: lounge excellent service, good food drink
 
 Overall, it could be gathered that British Airways had mainly done well in having a fleet of friendly and efficient cabin crew, as well as facilities that most customers were satisfied with. However, one major areas of improvement was noted, which is the delays of their flight. Additionally, economy class passengers also seemed to have complained about the exit row seat. 
 
@@ -148,4 +148,4 @@ Finally, transparency of project is made clear, as the ways of conducting the an
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the link here. 
 
-GitHub repo - https://github.com/Carlincyj/ITD214_project
+GitHub repo - https://github.com/Carlincyj/ITD214_project 
