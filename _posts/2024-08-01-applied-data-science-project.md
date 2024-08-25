@@ -18,10 +18,10 @@ Here are the four objectives that we focused on:
 3. To identify areas of customer satisfaction for marketing purposes, to improve business by 10% (Bridget)
 4. To reduce negative review sentiments by 10% to improve customer satisfaction and demand (Vivienne)
 
-For my business objective (#3), I aim to make use of Topic Modelling and Sentiment Analysis to analyse common topics of interest for the four different seat types offered on flights by British airways, so that areas of improvement can be addressed / areas done well can be continued. Thereafter, I will also use the trigrams column that has been generated to gather further insights into these topics of concern. 
+For my business objective (#2), I aim to make use of Topic Modelling and Sentiment Analysis to analyse common topics of interest for the four different seat types offered on flights by British airways, so that areas of improvement can be addressed / areas done well can be continued. Thereafter, I will also use the trigrams column that has been generated to gather further insights into these topics of concern. 
 
 ## Work Accomplished
-Overall, the steps below have generated insights for bettering the top concerns of passengers who had travelled with British Airways. Specifically, frequent topics from the review ("CleanText") body was extracted using LDA, and picked up to sieve out top trigrams for better understanding about reviews on these aspects. 
+Overall, the steps below have generated greater insights on how to better or maintain the top areas of discussion by passengers who had travelled with British Airways. Specifically, frequent topics from the review ("CleanText") body was extracted using LDA, and picked up to sieve out top trigrams for better understanding about reviews on these aspects. This includes areas of improvement and areas done well.
 
 ### Data Preparation
   First, the relevant libraries were downloaded for use.
@@ -62,7 +62,7 @@ To provide specific analysis for the four seat types (Economy Class, Premium Eco
 
 
 ### Modelling
-For this business objective, the model of choice was topic modelling. To enhance findings, I had also done an analysis of the bigrams and trigrams related to the topic words churned. 
+For this business objective, the model of choice was topic modelling. To enhance findings, I had also done an analysis of the bigrams and trigrams related to the topic words churned. Ultimately, for better understanding, only trigrams were focussed on to help with the analysis. 
 
 Topic modelling was done in Jupyter Notebook using LDA. Perplexity scores and coherence scores were calculated to determine the best number of topics to input for the modelling process. Based on the scores, topic_num = 20 was chosen. 
 
